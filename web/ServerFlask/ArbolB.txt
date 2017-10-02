@@ -1,0 +1,9 @@
+digraph G{
+node [shape = record];
+rankdir = TD;
+activo_Cuarta [label= "<r0> | <cl1>Carpeta: Cuarta &#92; | <r1> "];
+activo_Quinta [label= "<r0> | <cl1>Carpeta: Quinta &#92; | <r1> | <cl2>Carpeta: Segunda &#92; | <r2> | <cl3>Carpeta: Tercera &#92; | <r3> "];
+activo_Primera [label= "<r0> | <cl1>Carpeta: Primera &#92; | <r1> "];
+activo_Primera:r0 -> activo_Cuarta;
+activo_Primera:r1 -> activo_Quinta;
+}
